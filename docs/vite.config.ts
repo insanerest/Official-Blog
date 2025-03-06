@@ -12,4 +12,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "app"), // Point to the root folder
     },
   },
+  base: "/",
 });
