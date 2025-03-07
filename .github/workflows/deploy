@@ -28,5 +28,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # Target branch for GitHub Pages
-          folder: docs  # Subfolder containing the site
           clean: true  # Removes old files
