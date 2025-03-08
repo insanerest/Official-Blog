@@ -1,10 +1,5 @@
-import React, { type ReactNode } from "react";
 import "./main.css"; // Ensure this path is correct
-
-interface LayoutProps {
-  children: ReactNode; // Explicitly type the children
-}
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+export default function Layout({ children }) {
   return (
     <div>
       {/* Header */}
@@ -78,5 +73,3 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     </div>
   );
 };
-
-export default Layout;
