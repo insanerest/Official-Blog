@@ -1,4 +1,5 @@
 import "./main.css"; // Ensure this path is correct
+import { Link } from "react-router-dom";
 export default function Layout({ children }) {
   return (
     <div>
@@ -18,12 +19,12 @@ export default function Layout({ children }) {
               </span>
             </label>
             <div className="trigger">
-              <a className="page-link" href="/about/">
+              <Link className="page-link" to="/about">
                 About
-              </a>
-              <a className="page-link" href="/contact">
+              </Link>
+              <Link className="page-link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
@@ -48,12 +49,12 @@ export default function Layout({ children }) {
             <div className="footer-col footer-col-2">
               <ul className="social-media-list">
                 <li>
-                  <a href="https://github.com/insanerest">
+                  <Link to="https://github.com/insanerest">
                     <svg className="svg-icon">
                       <use xlinkHref="./minima-social-icons.svg#github"></use>
                     </svg>
                     <span className="username">insanerest</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -62,9 +63,9 @@ export default function Layout({ children }) {
                 Welcome to my blog! This is where I share my thoughts on various
                 programming topics. To suggest a topic, email me or comment in
                 the discussion{" "}
-                <a href="https://github.com/insanerest/insanerest.github.io/discussions">
+                <Link to="https://github.com/insanerest/insanerest.github.io/discussions">
                   Discussions
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -72,4 +73,4 @@ export default function Layout({ children }) {
       </footer>
     </div>
   );
-};
+}
