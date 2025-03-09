@@ -6,9 +6,9 @@ export default function Layout({ children }) {
       {/* Header */}
       <header className="site-header" role="banner">
         <div className="wrapper">
-          <a className="site-title" rel="author" href="/">
+          <Link className="site-title" rel="author" to="/">
             while(true) &#123; blog(); &#125;
-          </a>
+          </Link>
           <nav className="site-nav">
             <input type="checkbox" id="nav-trigger" className="nav-trigger" />
             <label htmlFor="nav-trigger">
