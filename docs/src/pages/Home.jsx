@@ -1,0 +1,27 @@
+import "../../public/main.css";
+import Layout from "../../public/Layout";
+import { Link } from "react-router-dom";
+
+export default function Home() {
+  return (
+    <Layout>
+      <main className="page-content">
+        <div className="wrapper">
+          <div className="home">
+            <h2 className="post-list-heading">Posts</h2>
+            <ul className="post-list">
+              <li>
+                <span className="post-meta">Mar 4, 2025</span>
+                <h3>
+                  <Link className="post-link" to="/welcome-to-the-blog">
+                    Welcome to the blog
+                  </Link>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </Layout>
+  );
+}
