@@ -10,5 +10,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "/Official-Blog/"
+  base: "/Official-Blog/",
+  server: {
+    host: "0.0.0.0",
+    port: 3002,
+    strictPort: true,
+  },
 });
