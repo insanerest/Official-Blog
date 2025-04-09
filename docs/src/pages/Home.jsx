@@ -11,7 +11,7 @@ export default function Home() {
             <h2 className="post-list-heading">Posts</h2>
             <ul className="post-list">
               <li>
-                <span className="post-meta">Mar 4, 2025</span>
+                <span className="post-meta">Apr 7, 2025</span>
                 <h3>
                   <Link className="post-link" to="/welcome-to-the-blog">
                     Welcome to the blog

@@ -12,10 +12,10 @@ export default function About() {
             </header>
             <div className="post-content">
               <h1>
-                About <strong>while(true) &#123; blog(); &#125;</strong>
+                About <strong>while(true): blog()</strong>
               </h1>
               <p>
-                Welcome to <strong>while(true) &#123; blog(); &#125;</strong>—a
+                Welcome to <strong>while(true): blog()</strong>—a
                 blog where coding never stops! 🚀
               </p>
               <h2>Why This Blog?</h2>
@@ -56,7 +56,7 @@ export default function About() {
               </p>
               <p>Also here is the discussion page:</p>
               <p>
-                <a href="https://github.com/insanerest/insanerest.github.io/discussions">
+                <a href="https://github.com/insanerest/Official-Blog/discussions">
                   Discussions
                 </a>
               </p>
@@ -67,7 +67,7 @@ export default function About() {
               </p>
               <p>
                 You can find the source code for this blog at GitHub:{" "}
-                <a href="https://github.com/insanerest/insanerest.github.io">
+                <a href="https://github.com/insanerest/Official-Blog">
                   Source Code
                 </a>
               </p>

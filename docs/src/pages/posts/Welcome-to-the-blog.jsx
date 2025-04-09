@@ -19,10 +19,10 @@ export function WelcomeToTheBlog() {
               <p className="post-meta">
                 <time
                   className="dt-published"
-                  dateTime="2025-03-04T13:09:39-05:00"
+                  dateTime="2025-04-07T13:09:39-05:00"
                   itemProp="datePublished"
                 >
-                  Mar 4, 2025
+                  Apr 7, 2025
                 </time>
               </p>
             </header>
@@ -45,20 +45,20 @@ export function WelcomeToTheBlog() {
               <p>
                 I’d love to hear from you! Feel free to share your thoughts, ask
                 questions, or start a conversation in the discussion page. Let’s
-                build a community where we can learn and grow together.
+                build a community where we can learn and build together.
               </p>
 
               <p>
-                <a href="https://github.com/insanerest/insanerest.github.io/discussions">
+                <a href="https://github.com/insanerest/Official-Blog/discussions">
                   Discussions
                 </a>
               </p>
 
               <p>
                 <strong>
-                  I will be posting on the blog twice a week, every Monday and
-                  Friday, so be sure to check in regularly for new content. Stay
-                  tuned for updates and exciting posts!
+                  I will be posting on the blog evry week on Monday, so be sure
+                  to check in regularly for new content. Stay tuned for updates
+                  and exciting posts!
                 </strong>
               </p>
 
@@ -69,7 +69,11 @@ export function WelcomeToTheBlog() {
               <p>— Insanerest</p>
             </div>
 
-            <Link className="u-url" to="/welcome-to-the-blog.html" hidden></Link>
+            <Link
+              className="u-url"
+              to="/welcome-to-the-blog.html"
+              hidden
+            ></Link>
           </article>
         </div>
       </main>
