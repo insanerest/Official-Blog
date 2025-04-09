@@ -5,12 +5,11 @@ import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import Layout from "../../public/Layout";
 import { useForm, ValidationError } from "@formspree/react";
-import { env } from "process";
 
 
 export default function Contact() {
   const [formStatus, setFormStatus] = useState("");
-  const [state, handleSubmit] = useForm("myzeywdk");
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
