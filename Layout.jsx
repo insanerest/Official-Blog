@@ -1,26 +1,13 @@
 import "./main.css"; // Ensure this path is correct
 import { Link } from "react-router-dom";
 export default function Layout({ children }) {
-  const reloadNavigate = (pathname) => {
-    return (e) => {
-      const windowPathname = window.location.href.split("/").pop();
-      if (windowPathname === pathname) {
-        window.location.reload();
-      }
-    };
-  };
   return (
     <div>
       {/* Header */}
       <header className="site-header" role="banner">
         <div className="wrapper">
-          <Link
-            className="site-title"
-            rel="author"
-            to="/"
-            onClick={reloadNavigate("")}
-          >
-            while(true): blog()
+          <Link className="site-title" rel="author" to="/">
+            while(true) &#123; blog(); &#125;
           </Link>
           <nav className="site-nav">
             <input type="checkbox" id="nav-trigger" className="nav-trigger" />
@@ -32,18 +19,10 @@ export default function Layout({ children }) {
               </span>
             </label>
             <div className="trigger">
-              <Link
-                className="page-link"
-                to="/about"
-                onClick={reloadNavigate("about")}
-              >
+              <Link className="page-link" to="/about">
                 About
               </Link>
-              <Link
-                className="page-link"
-                to="/contact"
-                onClick={reloadNavigate("contact")}
-              >
+              <Link className="page-link" to="/contact">
                 Contact
               </Link>
             </div>
@@ -59,11 +38,11 @@ export default function Layout({ children }) {
       {/* Footer */}
       <footer className="site-footer h-card">
         <div className="wrapper">
-          <h2 className="footer-heading">while(true): blog()</h2>
+          <h2 className="footer-heading">while(true) &#123; blog(); &#125;</h2>
           <div className="footer-col-wrapper">
             <div className="footer-col footer-col-1">
               <ul className="contact-list">
-                <li className="p-name">while(true): blog()</li>
+                <li className="p-name">while(true) &#123; blog(); &#125;</li>
                 <li></li>
               </ul>
             </div>
@@ -82,14 +61,10 @@ export default function Layout({ children }) {
             <div className="footer-col footer-col-3">
               <p>
                 Welcome to my blog! This is where I share my thoughts on various
-                programming topics. To suggest a topic, contact me{" "}
-                <Link to="/contact" onClick={reloadNavigate("contact")}>
-                  {" "}
-                  here
-                </Link>{" "}
-                or comment in the{" "}
-                <Link to="https://github.com/insanerest/Official-Blog/discussions/4">
-                  Discussion
+                programming topics. To suggest a topic, email me or comment in
+                the discussion{" "}
+                <Link to="https://github.com/insanerest/insanerest.github.io/discussions">
+                  Discussions
                 </Link>
               </p>
             </div>
