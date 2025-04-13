@@ -2,7 +2,7 @@ import React from "react";
 import "../../../public/main.css";
 import Layout from "../../../public/Layout";
 import { Link } from "react-router-dom";
-export function WelcomeToTheBlog() {
+export default function WelcomeToTheBlog() {
   return (
     <Layout>
       <main className="page-content" aria-label="Content">
