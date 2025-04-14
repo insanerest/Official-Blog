@@ -18,6 +18,14 @@ export default function Home() {
                   </Link>
                 </h3>
               </li>
+              <li>
+                <span className="post-meta">Apr 14, 2025</span>
+                <h3>
+                  <Link className="post-link" to="/building-a-secure-api">
+                    Building Secure API Authentication in Node.js Without OAuth
+                  </Link>
+                </h3>
+              </li>
             </ul>
           </div>
         </div>
