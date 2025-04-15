@@ -4,13 +4,15 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import WelcomeToTheBlog from "./pages/posts/Welcome-to-the-blog";
 import BuildingASecureAPI from "./pages/posts/Building-a-secure-API";
+import Tags from "./pages/Tags";
 
 const router = createHashRouter([
   { path: "/", element: <Home /> },
   { path: "/about", element: <About /> },
   { path: "/contact", element: <Contact /> },
   { path: "/welcome-to-the-blog", element: <WelcomeToTheBlog /> },
-  {path: "/building-a-secure-api", element: <BuildingASecureAPI/>}
+  {path: "/building-a-secure-api", element: <BuildingASecureAPI/>},
+  {path: "/tags/:tag", element: <Tags/>}
 ]);
 
 export default router;
