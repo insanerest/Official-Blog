@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "date": "Apr 7, 2025",
     "title": "Welcome to the blog",
     "file": "/docs/src/pages/posts/Welcome-to-the-blog.jsx",
     "tags": ["welcome"],
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "date":"Apr 14, 2025",
     "title": "Building Secure API Authentication in Node.js Without OAuth",
     "file": "/docs/src/pages/posts/Building-a-secure-API.jsx",
     "tags": ["Oauth", "javascript", "nodeJS", "backend", "API"],
