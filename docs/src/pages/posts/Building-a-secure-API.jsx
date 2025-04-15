@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../../../public/main.css";
 import Layout from "../../../public/Layout";
 import { Link } from "react-router-dom";
 import CodeBlock from "@/components/ui/codeBlock";
-import TabbedCodeBlock from "@/components/ui/tabbedCodeBlocks";
 
 export default function BuildingASecureAPI() {
-  const [code, changeCode] = useState("");
   return (
     <Layout>
       <main className="page-content" aria-label="Content">
@@ -230,7 +228,7 @@ module.exports = (req, res, next) => {
 
             <Link
               className="u-url"
-              to="/welcome-to-the-blog.html"
+              to="/building-a-secure-api.html"
               hidden
             ></Link>
           </article>
