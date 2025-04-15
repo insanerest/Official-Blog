@@ -1,6 +1,7 @@
 import "../../public/main.css";
 import Layout from "../../public/Layout";
 import { Link } from "react-router-dom";
+import PostHashtags from "@/components/ui/postHashtags";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
                     Welcome to the blog
                   </Link>
                 </h3>
+                <PostHashtags id={1}/>
               </li>
               <li>
                 <span className="post-meta">Apr 14, 2025</span>
@@ -25,6 +27,7 @@ export default function Home() {
                     Building Secure API Authentication in Node.js Without OAuth
                   </Link>
                 </h3>
+                <PostHashtags id={2}/>
               </li>
             </ul>
           </div>
