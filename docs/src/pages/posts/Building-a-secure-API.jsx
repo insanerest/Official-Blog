@@ -3,10 +3,8 @@ import "../../../public/main.css";
 import Layout from "../../../public/Layout";
 import { Link } from "react-router-dom";
 import CodeBlock from "@/components/ui/codeBlock";
-import TabbedCodeBlock from "@/components/ui/tabbedCodeBlocks";
 
 export default function BuildingASecureAPI() {
-  const [code, changeCode] = useState("");
   return (
     <Layout>
       <main className="page-content" aria-label="Content">
