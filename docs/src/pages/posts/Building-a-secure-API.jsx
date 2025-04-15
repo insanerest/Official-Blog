@@ -228,7 +228,7 @@ module.exports = (req, res, next) => {
 
             <Link
               className="u-url"
-              to="/welcome-to-the-blog.html"
+              to="/building-a-secure-api.html"
               hidden
             ></Link>
           </article>
