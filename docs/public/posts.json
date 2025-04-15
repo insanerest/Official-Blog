@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the blog",
+      "file": "/docs/src/pages/posts/Welcome-to-the-blog.jsx",
+      "tags": ["welcome"]
+    },
+    {
+      "id": 2,
+      "title":"Building Secure API Authentication in Node.js Without OAuth",
+      "file":"/docs/src/pages/posts/Building-a-secure-API.jsx",
+      "tags": ["Oauth", "javascript", "nodeJS", "backend", "API"]
+    }
+  ]
+}
